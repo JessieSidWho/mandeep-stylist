@@ -1,5 +1,6 @@
 import React from 'react';
 import Coverflow from 'react-coverflow';
+import './slides.css'
 
 const Slides = () => {
 
@@ -9,7 +10,7 @@ const Slides = () => {
 
 
     return (
-        <div className='row justify-content-md-center border'>
+        <div className='row justify-content-md-center' style={{backgroundColor: 'white'}}>
             <div className='col-md-12'>
                 <Coverflow
                     className=''
@@ -26,13 +27,17 @@ const Slides = () => {
                         tabIndex="0"
                     >
                         <img
-                            src='[image/path/please_change]'
+                            src='https://picsum.photos/500'
                             alt='title or description'
                             style={{ display: 'block', width: '100%' }}
                         />
                     </div>
-                    <img src='' alt='slide 1' />
-                    <img src='[image/path/please_change]' alt='slide 2' />
+                    <img src='https://picsum.photos/600' alt='slide 1' />
+                    <img src='https://picsum.photos/700' alt='slide 2' />
+                    <img src='https://picsum.photos/800' alt='slide 1' />
+                    <img src='https://picsum.photos/900' alt='slide 2' />
+                    <img src='https://picsum.photos/1000' alt='slide 1' />
+                    <img src='https://picsum.photos/1100' alt='slide 2' />
                 </Coverflow>
             </div>
         </div>
