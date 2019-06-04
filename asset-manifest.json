@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mandeep-stylist/static/css/main.8544cd88.chunk.css",
+    "main.js": "/mandeep-stylist/static/js/main.9ebaa3e3.chunk.js",
+    "main.js.map": "/mandeep-stylist/static/js/main.9ebaa3e3.chunk.js.map",
+    "runtime~main.js": "/mandeep-stylist/static/js/runtime~main.0dcf333d.js",
+    "runtime~main.js.map": "/mandeep-stylist/static/js/runtime~main.0dcf333d.js.map",
+    "static/js/2.b44a45b8.chunk.js": "/mandeep-stylist/static/js/2.b44a45b8.chunk.js",
+    "static/js/2.b44a45b8.chunk.js.map": "/mandeep-stylist/static/js/2.b44a45b8.chunk.js.map",
+    "index.html": "/mandeep-stylist/index.html",
+    "precache-manifest.2208cbcb3bf1c653f7ee67f669dc2a40.js": "/mandeep-stylist/precache-manifest.2208cbcb3bf1c653f7ee67f669dc2a40.js",
+    "service-worker.js": "/mandeep-stylist/service-worker.js",
+    "static/css/main.8544cd88.chunk.css.map": "/mandeep-stylist/static/css/main.8544cd88.chunk.css.map",
+    "static/media/logo.png": "/mandeep-stylist/static/media/logo.a5c6640b.png"
+  }
+}
