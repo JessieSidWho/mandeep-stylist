@@ -3,7 +3,7 @@ import Logo from './../../images/logo.png';
 
 const Title = () => {
     return (
-        <div className='row mb-2' style={{fontFamily: 'Comfortaa', fontSize: '20px'}}>
+        <div className='row' style={{fontFamily: 'Comfortaa', fontSize: '20px'}}>
 
             <div className='col-md-4 text-center' >
                 <img className='p-0 m-0' src={Logo} alt='logo' style={{ width: '35vw', height: 'auto' }} />
