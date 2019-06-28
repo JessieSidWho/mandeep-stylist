@@ -1,25 +1,60 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import React, { Component } from 'react'
+import { Button, Header, Icon, Image, Menu, Segment, Sidebar } from 'semantic-ui-react'
 
-const Sidebar= () => (
-  <Router>
-    <div style={{ display: 'flex' }}>
-      <div style={{
-        padding: '10px',
-        width: '80%',
-        // background: '#f0f0f0'
-      }}>
-        <ul style={{ listStyleType: 'none', padding: '0' }}>
-          <li><a href='http://localhost:3000' style={{fontSize: '25px', color: '#115E1B', paddingTop: '2%'}}>Home</a></li>
-          <li><a href='http://localhost:3000/news' style={{fontSize: '25px', color: '#115E1B'}}>Instagram</a></li>
-          <li><a href='http://localhost:3000/petitions' style={{fontSize: '25px', color: '#115E1B'}}>Inquire</a></li>
-          <li><a href='http://localhost:3000/map' style={{fontSize: '25px', color: '#115E1B'}}>FAQs</a></li>
-          {/* <li><a href='http://localhost:3000/congress' style={{fontSize: '25px', color: '#115E1B'}}>Email-Congress</a></li> */}
-          {/* <li><a href='http://localhost:3000/Donate' style={{fontSize: '25px', color: '#115E1B'}}>Donate</a></li> */}
-        </ul>
+export default class SidebarMenu extends Component {
+  state = { visible: false }
+
+  handleHideClick = () => this.setState({ visible: false })
+  handleShowClick = () => this.setState({ visible: true })
+  handleSidebarHide = () => this.setState({ visible: false })
+
+  render() {
+    const { visible } = this.state
+
+    return (
+      <div>
+        <Button.Group>
+          <Button disabled={visible} onClick={this.handleShowClick}>
+            Show sidebar
+          </Button>
+          <Button disabled={!visible} onClick={this.handleHideClick}>
+            Hide sidebar
+          </Button>
+        </Button.Group>
+
+        <Sidebar.Pushable as={Segment}>
+          <Sidebar
+            as={Menu}
+            animation='overlay'
+            icon='labeled'
+            inverted
+            onHide={this.handleSidebarHide}
+            vertical
+            visible={visible}
+            width='thin'
+          >
+            <Menu.Item as='a'>
+              <Icon name='home' />
+              Home
+            </Menu.Item>
+            <Menu.Item as='a'>
+              <Icon name='gamepad' />
+              Games
+            </Menu.Item>
+            <Menu.Item as='a'>
+              <Icon name='camera' />
+              Channels
+            </Menu.Item>
+          </Sidebar>
+
+          <Sidebar.Pusher>
+            <Segment basic>
+              <Header as='h3'>Application Content</Header>
+              <Image src='/images/wireframe/paragraph.png' />
+            </Segment>
+          </Sidebar.Pusher>
+        </Sidebar.Pushable>
       </div>
-    </div>
-  </Router>
-)
-
-export default Sidebar;
+    )
+  }
+}
