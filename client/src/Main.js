@@ -53,7 +53,7 @@ class Main extends Component {
           <Sidebar.Pusher>
             <Segment pure basic >
               <Header pure as='h3'>Application Content</Header>
-              <p>jdskafjdskjdskjkldsjfjasdjfkldsjfkdjflkdsflkdsadsfj
+              <p>jflkad;jfdljdskafjdskjdskjkldsjfjasdjfkldsjfkdjflkdsflkdsadsfj
                 fjdskafjdsdjfsakfdsjfd;sajdsfjdasjfkdsj;dakjlfjdjlfdajfkldasj
                 fdsafjdsckdsackdmkldscjdskjcdalskcnsdjcdksjkdsjvdklvladvjslad
                 cjdacjklsjckldsjckldascjdaklsjckldsjcdksjckldsjcdsjkldsajckklas
