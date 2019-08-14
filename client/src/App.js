@@ -1,11 +1,12 @@
 import React from 'react';
-import Main from './Main';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import FullpageWrapper from './components/Fullpage';
 
 function App() {
   return (
     <>
-      <Main/>    
+      <FullpageWrapper/>    
     </>
   );
 }
