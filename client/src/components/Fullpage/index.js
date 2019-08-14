@@ -17,17 +17,17 @@ class FullpageWrapper extends React.Component {
       <Title id='' style={{}}/>
 
       <ReactFullpage
-        style={{zIndex: '-1', paddingTop: '50px'}}
+        
         scrollOverflow={true}
-        sectionsColor={["orange", "purple", "green"]}
+        sectionsColor={["rgba(0,0,0,.7)", "purple", "green"]}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
         render={({ state, fullpageApi }) => {
           return (
-            <div id="fullpage-wrapper" style={{}}>
+            <div id="fullpage-wrapper">
 
               <div id='about' className="section section1">
-                <h3>Section 1</h3>
+                
               </div>
 
               <div id='portfolio' className="section">
@@ -44,9 +44,6 @@ class FullpageWrapper extends React.Component {
 
               <div id='contact' className="section">
                 <h3>Section 3</h3>
-                <button onClick={() => fullpageApi.moveTo(1, 0)}>
-                  Move top
-                </button>
               </div>
             </div>
           );
