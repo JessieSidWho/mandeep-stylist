@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mandeep-stylist/static/css/main.1f8a71bf.chunk.css",
-    "main.js": "/mandeep-stylist/static/js/main.cce6ee95.chunk.js",
-    "main.js.map": "/mandeep-stylist/static/js/main.cce6ee95.chunk.js.map",
+    "main.css": "/mandeep-stylist/static/css/main.6fe7ba53.chunk.css",
+    "main.js": "/mandeep-stylist/static/js/main.fc1619ba.chunk.js",
+    "main.js.map": "/mandeep-stylist/static/js/main.fc1619ba.chunk.js.map",
     "runtime~main.js": "/mandeep-stylist/static/js/runtime~main.0dcf333d.js",
     "runtime~main.js.map": "/mandeep-stylist/static/js/runtime~main.0dcf333d.js.map",
-    "static/css/2.3ce523bb.chunk.css": "/mandeep-stylist/static/css/2.3ce523bb.chunk.css",
-    "static/js/2.2df10e7a.chunk.js": "/mandeep-stylist/static/js/2.2df10e7a.chunk.js",
-    "static/js/2.2df10e7a.chunk.js.map": "/mandeep-stylist/static/js/2.2df10e7a.chunk.js.map",
+    "static/css/2.896fe0c7.chunk.css": "/mandeep-stylist/static/css/2.896fe0c7.chunk.css",
+    "static/js/2.de1500f0.chunk.js": "/mandeep-stylist/static/js/2.de1500f0.chunk.js",
+    "static/js/2.de1500f0.chunk.js.map": "/mandeep-stylist/static/js/2.de1500f0.chunk.js.map",
     "index.html": "/mandeep-stylist/index.html",
-    "precache-manifest.20648c29244a795ec5ea939f07e0a6e0.js": "/mandeep-stylist/precache-manifest.20648c29244a795ec5ea939f07e0a6e0.js",
+    "precache-manifest.e6db873716ed4a700ecda152dbe9b044.js": "/mandeep-stylist/precache-manifest.e6db873716ed4a700ecda152dbe9b044.js",
     "service-worker.js": "/mandeep-stylist/service-worker.js",
-    "static/css/2.3ce523bb.chunk.css.map": "/mandeep-stylist/static/css/2.3ce523bb.chunk.css.map",
-    "static/css/main.1f8a71bf.chunk.css.map": "/mandeep-stylist/static/css/main.1f8a71bf.chunk.css.map",
+    "static/css/2.896fe0c7.chunk.css.map": "/mandeep-stylist/static/css/2.896fe0c7.chunk.css.map",
+    "static/css/main.6fe7ba53.chunk.css.map": "/mandeep-stylist/static/css/main.6fe7ba53.chunk.css.map",
     "static/media/semantic.min.css": "/mandeep-stylist/static/media/outline-icons.ef60a4f6.woff"
   }
 }
