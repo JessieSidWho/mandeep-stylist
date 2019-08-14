@@ -2,6 +2,7 @@ import React from 'react';
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 import ReactFullpage from "@fullpage/react-fullpage";
 import Title from './../Title';
+import About from './../About';
 import "./styles.css";
  
 class FullpageWrapper extends React.Component {
@@ -19,7 +20,7 @@ class FullpageWrapper extends React.Component {
       <ReactFullpage
         
         scrollOverflow={true}
-        sectionsColor={["rgba(0,0,0,.7)", "purple", "green"]}
+        sectionsColor={["rgba(0,0,0,.1)", "#CBC5C1", "#A2ABB0"]}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
         render={({ state, fullpageApi }) => {
@@ -27,7 +28,7 @@ class FullpageWrapper extends React.Component {
             <div id="fullpage-wrapper">
 
               <div id='about' className="section section1">
-                
+                <About/>
               </div>
 
               <div id='portfolio' className="section">

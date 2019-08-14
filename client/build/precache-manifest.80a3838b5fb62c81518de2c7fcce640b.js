@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1c37faed5be3f3aba2c9f5bf7a5085c",
+    "revision": "5d9d02c9c6c14322e29262a42504dad4",
     "url": "/mandeep-stylist/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mandeep-stylist/static/css/2.896fe0c7.chunk.css"
   },
   {
-    "revision": "8b837376510ba6a63ad9",
-    "url": "/mandeep-stylist/static/css/main.6fe7ba53.chunk.css"
+    "revision": "1fcf152218879cffb9ce",
+    "url": "/mandeep-stylist/static/css/main.b1ecc86a.chunk.css"
   },
   {
     "revision": "e6bb65247cb4a0c27aca",
     "url": "/mandeep-stylist/static/js/2.de1500f0.chunk.js"
   },
   {
-    "revision": "8b837376510ba6a63ad9",
-    "url": "/mandeep-stylist/static/js/main.fc1619ba.chunk.js"
+    "revision": "1fcf152218879cffb9ce",
+    "url": "/mandeep-stylist/static/js/main.6030632a.chunk.js"
   },
   {
     "revision": "ca170f57c9b91758c088",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
     "url": "/mandeep-stylist/static/media/icons.faff9214.woff"
+  },
+  {
+    "revision": "f99ed36a532de09831a648b756f9e9bd",
+    "url": "/mandeep-stylist/static/media/logoOnly.f99ed36a.png"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
