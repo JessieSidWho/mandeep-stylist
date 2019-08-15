@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/mandeep-stylist/precache-manifest.80a3838b5fb62c81518de2c7fcce640b.js"
+  "/mandeep-stylist/precache-manifest.e77a4d2faba23200cc898e4eed3b047e.js"
 );
 
 self.addEventListener('message', (event) => {

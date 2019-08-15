@@ -1,8 +1,8 @@
-html {
+/* html {
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1));
-}
+  background-color: "#A2ABB0";
+} */
 
 body {
   height: 100%;
@@ -13,11 +13,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1));
-  background-attachment: fixed;
+  background-color: "#A2ABB0";
+  /* background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1)); */
+  /* background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: center right; */
 }
 
 code {

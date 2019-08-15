@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d9d02c9c6c14322e29262a42504dad4",
+    "revision": "78c1f6f95f47d397cdc9277c6b6f2183",
     "url": "/mandeep-stylist/index.html"
   },
   {
-    "revision": "e6bb65247cb4a0c27aca",
+    "revision": "4ba89df84248cb42b8ff",
     "url": "/mandeep-stylist/static/css/2.896fe0c7.chunk.css"
   },
   {
-    "revision": "1fcf152218879cffb9ce",
-    "url": "/mandeep-stylist/static/css/main.b1ecc86a.chunk.css"
+    "revision": "3acc232f44014a60336f",
+    "url": "/mandeep-stylist/static/css/main.15686136.chunk.css"
   },
   {
-    "revision": "e6bb65247cb4a0c27aca",
-    "url": "/mandeep-stylist/static/js/2.de1500f0.chunk.js"
+    "revision": "4ba89df84248cb42b8ff",
+    "url": "/mandeep-stylist/static/js/2.7a227950.chunk.js"
   },
   {
-    "revision": "1fcf152218879cffb9ce",
-    "url": "/mandeep-stylist/static/js/main.6030632a.chunk.js"
+    "revision": "3acc232f44014a60336f",
+    "url": "/mandeep-stylist/static/js/main.f6b8c3f2.chunk.js"
   },
   {
     "revision": "ca170f57c9b91758c088",
@@ -68,8 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mandeep-stylist/static/media/icons.faff9214.woff"
   },
   {
+    "revision": "266409203bfd530273208954d8f476e5",
+    "url": "/mandeep-stylist/static/media/instaBanksy.26640920.jpg"
+  },
+  {
     "revision": "f99ed36a532de09831a648b756f9e9bd",
     "url": "/mandeep-stylist/static/media/logoOnly.f99ed36a.png"
+  },
+  {
+    "revision": "817d8f8653aba627640e46dcad25c9c8",
+    "url": "/mandeep-stylist/static/media/logoOnlyWhite.817d8f86.png"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
