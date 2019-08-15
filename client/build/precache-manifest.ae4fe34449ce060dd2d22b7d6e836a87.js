@@ -1,27 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78c1f6f95f47d397cdc9277c6b6f2183",
+    "revision": "014bbfece8a639497ed5f07cc97945f5",
     "url": "/mandeep-stylist/index.html"
   },
   {
-    "revision": "4ba89df84248cb42b8ff",
+    "revision": "d2d3456d48ef274235af",
     "url": "/mandeep-stylist/static/css/2.896fe0c7.chunk.css"
   },
   {
-    "revision": "3acc232f44014a60336f",
-    "url": "/mandeep-stylist/static/css/main.15686136.chunk.css"
+    "revision": "0790bccacf03439d2376",
+    "url": "/mandeep-stylist/static/css/main.ce9b5faf.chunk.css"
   },
   {
-    "revision": "4ba89df84248cb42b8ff",
-    "url": "/mandeep-stylist/static/js/2.7a227950.chunk.js"
+    "revision": "d2d3456d48ef274235af",
+    "url": "/mandeep-stylist/static/js/2.e147c4af.chunk.js"
   },
   {
-    "revision": "3acc232f44014a60336f",
-    "url": "/mandeep-stylist/static/js/main.f6b8c3f2.chunk.js"
+    "revision": "0790bccacf03439d2376",
+    "url": "/mandeep-stylist/static/js/main.90742833.chunk.js"
   },
   {
     "revision": "ca170f57c9b91758c088",
     "url": "/mandeep-stylist/static/js/runtime~main.0dcf333d.js"
+  },
+  {
+    "revision": "7f14d13c5960414a0a419f6375a2c8a6",
+    "url": "/mandeep-stylist/static/media/Colors.7f14d13c.jpg"
+  },
+  {
+    "revision": "a558cfd15a1735c47ad06f8412180b46",
+    "url": "/mandeep-stylist/static/media/Magenta.a558cfd1.jpg"
+  },
+  {
+    "revision": "1b8a1cc3702d8c8b6fcaceaa2a889763",
+    "url": "/mandeep-stylist/static/media/Pixel.1b8a1cc3.jpg"
+  },
+  {
+    "revision": "989c74c8741e9359f164d2cc03602f4e",
+    "url": "/mandeep-stylist/static/media/SuperFire.989c74c8.jpg"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",

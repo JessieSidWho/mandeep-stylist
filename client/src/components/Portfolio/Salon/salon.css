@@ -1,0 +1,10 @@
+.fp-tableCell {
+    height: auto !important;
+}
+
+@media screen and (max-width: 480px) {
+    #img {
+         width: 70%;
+         height: 70%;
+    }
+}

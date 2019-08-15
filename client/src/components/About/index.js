@@ -5,7 +5,7 @@ import './about.css';
 const About = () => {
     return (
         <div className='row justify-content-md-center mt-2 pt-5'>
-            <div id='info' className='col-md-8 p-3 rounded-lg text-white text-left'>
+            <div id='info' className='col-md-10 p-3 rounded-lg text-white text-left'>
                 <div className='p-3'>
                     <img className='mr-4 mt-1' src={pic} alt='Profile Portrait' height='40%' width='40%' align='left' style={{opacity: '.9'}}/>
                     <span className='h3'>Hi! I'm Mandeep!</span><br></br><br></br>
