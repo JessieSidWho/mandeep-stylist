@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "014bbfece8a639497ed5f07cc97945f5",
+    "revision": "974dd96b7fe2e0432e131c9c693cd488",
     "url": "/mandeep-stylist/index.html"
   },
   {
-    "revision": "d2d3456d48ef274235af",
+    "revision": "b8e3eb07b425a2e6d77c",
     "url": "/mandeep-stylist/static/css/2.896fe0c7.chunk.css"
   },
   {
-    "revision": "0790bccacf03439d2376",
-    "url": "/mandeep-stylist/static/css/main.ce9b5faf.chunk.css"
+    "revision": "3464403c12a35bed93ea",
+    "url": "/mandeep-stylist/static/css/main.8d9751db.chunk.css"
   },
   {
-    "revision": "d2d3456d48ef274235af",
-    "url": "/mandeep-stylist/static/js/2.e147c4af.chunk.js"
+    "revision": "b8e3eb07b425a2e6d77c",
+    "url": "/mandeep-stylist/static/js/2.e9ac3276.chunk.js"
   },
   {
-    "revision": "0790bccacf03439d2376",
-    "url": "/mandeep-stylist/static/js/main.90742833.chunk.js"
+    "revision": "3464403c12a35bed93ea",
+    "url": "/mandeep-stylist/static/js/main.194f96b4.chunk.js"
   },
   {
     "revision": "ca170f57c9b91758c088",
     "url": "/mandeep-stylist/static/js/runtime~main.0dcf333d.js"
-  },
-  {
-    "revision": "7f14d13c5960414a0a419f6375a2c8a6",
-    "url": "/mandeep-stylist/static/media/Colors.7f14d13c.jpg"
   },
   {
     "revision": "a558cfd15a1735c47ad06f8412180b46",
