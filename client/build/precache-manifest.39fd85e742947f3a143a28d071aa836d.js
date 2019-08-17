@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ff80592b71e7eebb1ce1748613590b3",
+    "revision": "98aa997e38494e4e22875fbb5628fe39",
     "url": "/mandeep-stylist/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mandeep-stylist/static/css/2.896fe0c7.chunk.css"
   },
   {
-    "revision": "363d816f488fd248a285",
+    "revision": "7807bbbbf42ffdeee33e",
     "url": "/mandeep-stylist/static/css/main.678ab616.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mandeep-stylist/static/js/2.0db1c125.chunk.js"
   },
   {
-    "revision": "363d816f488fd248a285",
-    "url": "/mandeep-stylist/static/js/main.333fb296.chunk.js"
+    "revision": "7807bbbbf42ffdeee33e",
+    "url": "/mandeep-stylist/static/js/main.2947f842.chunk.js"
   },
   {
     "revision": "ca170f57c9b91758c088",

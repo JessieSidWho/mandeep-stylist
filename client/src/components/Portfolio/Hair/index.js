@@ -19,7 +19,7 @@ function Hair() {
 
   return (
     <div className='row justify-content-md-center'>
-        <div className='col-md-11 pt-5'>
+        <div className=' slide col-md-11 pt-5'>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway className=''>
         {viewerIsOpen ? (

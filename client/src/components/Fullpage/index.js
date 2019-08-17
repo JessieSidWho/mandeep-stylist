@@ -3,8 +3,8 @@ import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverf
 import ReactFullpage from "@fullpage/react-fullpage";
 import Title from './../Title';
 import About from './../About';
-import { Hair, Makeup } from './../Portfolio';
-// import Contact from './../Contact';
+import { Hair, Salon } from './../Portfolio';
+import Contact from './../Contact';
 import "./styles.css";
 
 
@@ -34,12 +34,12 @@ class FullpageWrapper extends React.Component {
                 </div>
 
                 <div id='portfolio' className="section">
+                  <Salon/>
                   <Hair/>
-                  <Makeup />
                 </div>
 
                 <div id='contact' className="section">
-                        {/* <Contact /> */}
+                        <Contact />
                    </div>
               </div>
             );
