@@ -25,3 +25,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.react-images__header .react-images__header--isModal .css-9xjzrb .css-1ycyyax {
+  padding-top: 100px !important;
+}
