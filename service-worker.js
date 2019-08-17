@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/mandeep-stylist/precache-manifest.962af001d2711e185f079ececb4f535d.js"
+  "/mandeep-stylist/precache-manifest.2484790ce590808ff7644b6c15c23e64.js"
 );
 
 self.addEventListener('message', (event) => {
