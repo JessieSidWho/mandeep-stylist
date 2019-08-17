@@ -34,7 +34,6 @@ class FullpageWrapper extends React.Component {
                 </div>
 
                 <div id='portfolio' className="section">
-                  {/* <Salon/> */}
                   <Hair/>
                   <Makeup />
                 </div>

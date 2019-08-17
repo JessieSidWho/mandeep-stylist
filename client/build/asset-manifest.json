@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mandeep-stylist/static/css/main.8d9751db.chunk.css",
-    "main.js": "/mandeep-stylist/static/js/main.2047f441.chunk.js",
-    "main.js.map": "/mandeep-stylist/static/js/main.2047f441.chunk.js.map",
+    "main.css": "/mandeep-stylist/static/css/main.678ab616.chunk.css",
+    "main.js": "/mandeep-stylist/static/js/main.333fb296.chunk.js",
+    "main.js.map": "/mandeep-stylist/static/js/main.333fb296.chunk.js.map",
     "runtime~main.js": "/mandeep-stylist/static/js/runtime~main.0dcf333d.js",
     "runtime~main.js.map": "/mandeep-stylist/static/js/runtime~main.0dcf333d.js.map",
     "static/css/2.896fe0c7.chunk.css": "/mandeep-stylist/static/css/2.896fe0c7.chunk.css",
     "static/js/2.0db1c125.chunk.js": "/mandeep-stylist/static/js/2.0db1c125.chunk.js",
     "static/js/2.0db1c125.chunk.js.map": "/mandeep-stylist/static/js/2.0db1c125.chunk.js.map",
     "index.html": "/mandeep-stylist/index.html",
-    "precache-manifest.4978b812848e54f54543c6391d79e85f.js": "/mandeep-stylist/precache-manifest.4978b812848e54f54543c6391d79e85f.js",
+    "precache-manifest.331e3d6175a9a9ed6032b513e6c46446.js": "/mandeep-stylist/precache-manifest.331e3d6175a9a9ed6032b513e6c46446.js",
     "service-worker.js": "/mandeep-stylist/service-worker.js",
     "static/css/2.896fe0c7.chunk.css.map": "/mandeep-stylist/static/css/2.896fe0c7.chunk.css.map",
-    "static/css/main.8d9751db.chunk.css.map": "/mandeep-stylist/static/css/main.8d9751db.chunk.css.map",
+    "static/css/main.678ab616.chunk.css.map": "/mandeep-stylist/static/css/main.678ab616.chunk.css.map",
     "static/media/semantic.min.css": "/mandeep-stylist/static/media/outline-icons.ef60a4f6.woff",
     "static/media/instaBanksy.jpg": "/mandeep-stylist/static/media/instaBanksy.26640920.jpg",
-    "static/media/about.css": "/mandeep-stylist/static/media/logoOnly.f99ed36a.png",
+    "static/media/styles.css": "/mandeep-stylist/static/media/logoOnly.f99ed36a.png",
     "static/media/logoOnlyWhite.png": "/mandeep-stylist/static/media/logoOnlyWhite.817d8f86.png"
   }
 }

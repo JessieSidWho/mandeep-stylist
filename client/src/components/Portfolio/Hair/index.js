@@ -23,7 +23,7 @@ function Hair() {
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway className=''>
         {viewerIsOpen ? (
-          <Modal className='mt-5' onClose={closeLightbox}>
+          <Modal className='' onClose={closeLightbox}>
             <Carousel
                 className=''
               currentIndex={currentImage}
