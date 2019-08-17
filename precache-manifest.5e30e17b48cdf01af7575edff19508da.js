@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98aa997e38494e4e22875fbb5628fe39",
+    "revision": "a57d5a852ee38cb32533b34939c165b0",
     "url": "/mandeep-stylist/index.html"
   },
   {
-    "revision": "92d4069026894e6e8cd3",
+    "revision": "3048d4e84b144b223a65",
     "url": "/mandeep-stylist/static/css/2.896fe0c7.chunk.css"
   },
   {
-    "revision": "7807bbbbf42ffdeee33e",
-    "url": "/mandeep-stylist/static/css/main.678ab616.chunk.css"
+    "revision": "903a6af71de5403bb1de",
+    "url": "/mandeep-stylist/static/css/main.f52dba3b.chunk.css"
   },
   {
-    "revision": "92d4069026894e6e8cd3",
-    "url": "/mandeep-stylist/static/js/2.0db1c125.chunk.js"
+    "revision": "3048d4e84b144b223a65",
+    "url": "/mandeep-stylist/static/js/2.b54d7442.chunk.js"
   },
   {
-    "revision": "7807bbbbf42ffdeee33e",
-    "url": "/mandeep-stylist/static/js/main.2947f842.chunk.js"
+    "revision": "903a6af71de5403bb1de",
+    "url": "/mandeep-stylist/static/js/main.5993dcb1.chunk.js"
   },
   {
     "revision": "ca170f57c9b91758c088",
