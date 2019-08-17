@@ -22,7 +22,7 @@ class FullpageWrapper extends React.Component {
 
         <ReactFullpage
           scrollOverflow={true}
-          sectionsColor={["#CBC5C1", "#A2ABB0", '']}
+          sectionsColor={['rgba(52,58,64,1)', 'rgba(52,58,64,.9)', 'rgba(52,58,64,.8)']}
           onLeave={this.onLeave.bind(this)}
           afterLoad={this.afterLoad.bind(this)}
           render={({ state, fullpageApi }) => {
