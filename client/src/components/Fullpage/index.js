@@ -3,7 +3,7 @@ import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverf
 import ReactFullpage from "@fullpage/react-fullpage";
 import Title from './../Title';
 import About from './../About';
-import { Salon, Hair, Makeup } from './../Portfolio';
+import { Hair, Makeup } from './../Portfolio';
 // import Contact from './../Contact';
 import "./styles.css";
 
