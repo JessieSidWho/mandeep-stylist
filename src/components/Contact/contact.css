@@ -1,24 +1,14 @@
-#nameInput {
-    width: 100%;
-    padding-left: 1%;
+#contact{
+    /* background: white; */
 }
 
-#emailInput {
-    width: 100%;
-    padding-left: 1%;
+#contactForm{
+    padding: auto;
 }
 
-#phoneInput {
-    width: 100%;
-    padding-left: 1%;
-}
-
-#productInput {
-    width: 100%;
-    padding-left: 1%;
-}
-
-#quantityInput {
-    width: 100%;
-    padding-left: 1%;
+@media only screen and (max-width: 600px){
+    #contactForm{
+        margin: 5% !important;
+        text-align: center;
+    }
 }

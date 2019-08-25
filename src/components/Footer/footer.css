@@ -1,0 +1,50 @@
+.no1 {
+    font-size: 40px; 
+    color: white;
+}
+
+.no2 {
+    font-size: 40px;
+    color: white;
+}
+
+.no3 {
+    font-size: 40px;
+    color: white;
+}
+
+.no4 {
+    font-size: 40px;
+    color: white;
+}
+
+.no5 {
+    font-size: 40px;
+    color: white;
+}
+
+#logos11:hover{
+    color: #fff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.no2:hover{
+    color: #4267B2;
+}
+
+.no3:hover{
+    color: #D42424;
+}
+
+.no4:hover{
+    color: lightskyblue;
+}
+
+.no5:hover{
+    color: orangered;
+}
+
+#footer{
+    opacity: .9;
+}
