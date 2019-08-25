@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from './../../images/instaBanksy.jpg';
+import pic from '../../images/instaBanksy.jpg';
 import './about.css';
 
 const About = () => {

@@ -1,10 +1,10 @@
 import React from 'react';
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 import ReactFullpage from "@fullpage/react-fullpage";
-import Title from './../Title';
-import About from './../About';
-import { Hair, Salon } from './../Portfolio';
-import Contact from './../Contact';
+import Title from '../Title';
+import About from '../About';
+import { Hair, Salon } from '../Portfolio';
+import Contact from '../Contact';
 import "./styles.css";
 
 

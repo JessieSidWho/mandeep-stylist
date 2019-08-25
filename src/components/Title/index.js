@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Logo from './../../images/logoOnlyWhite.png';
+import Logo from '../../images/logoOnlyWhite.png';
 import './style.css';
 
 
