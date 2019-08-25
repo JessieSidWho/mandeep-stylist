@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://jessiesidwho.github.io/mandeep-stylist",
   "dependencies": {
-    "@fullpage/react-fullpage": "^0.1.15",
+    "@fullpage/react-fullpage": "^0.1.16",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
