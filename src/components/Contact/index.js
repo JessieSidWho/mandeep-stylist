@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './contact.css';
 // import * as emailjs from 'emailjs-com';
-// import Swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 
 class Contact extends Component {
 
@@ -41,19 +41,19 @@ class Contact extends Component {
 
         //  emailjs.send(service_id, template_id, template_params, user_id)
         //  .then((response) => {
-        //     Swal.fire({
-        //         title: 'Sweet!',
-        //         text: 'The PhotoBooth Ninja has received your Inquiry!',
-        //         imageUrl: 'https://doc-0g-c8-docs.googleusercontent.com/docs/securesc/09uor7tfjvrlmponiv9agjtpkdrqfi6n/jgu3li6ofpv46kslakrgekatobe2ffmn/1566712800000/11950157827955506024/10852443605815171160/1km-aqg8iva6xahEx2_4pjnY1LORWKmZK?nonce=71k91icjda550&user=10852443605815171160&hash=jjm7rokqk975ubge3ta1bfq68el6t49e',
-        //         imageWidth: 250,
-        //         imageHeight: 250,
-        //         imageAlt: 'Custom image',
-        //         animation: false
-        //       })
+            Swal.fire({
+                title: 'SUCCESS!',
+                text: 'Mandeep Stylist has received your Inquery!!',
+                imageUrl: 'https://drive.google.com/uc?id=1aD_WWpfHGzfmYoSht0YV2-eBb0Bvleps',
+                imageWidth: 350,
+                imageHeight: 300,
+                imageAlt: 'Custom image',
+                animation: false
+              })
         //     // console.log('SUCCESS!', response.status, response.text);
         //  }, (err) => {
-        //     Swal.fire('Uh oh . .', 
-        //     'You\'re Inquiry was not sent. If this error keeps occuring, please Call or Email me directly at: (619) 504-7147 | ThePhotoBoothNinja@gmail.com', 'error')
+            // Swal.fire('Uh oh . .', 
+            // 'You\'re Inquiry was not sent. If this error keeps occuring, please Email directly at: MandeepStylist@gmail.com', 'error')
         //     // console.log('FAILED...', err);
         //  });
 
@@ -65,18 +65,18 @@ class Contact extends Component {
         return (
             <div id='contact' className='row justify-content-around mt-3 mb-5'>
 
-                <div className='col-md-6 pb-5 mb-5'>
-                    <div className='row mt-5'>
+                <div className='col-md-7 mt-5 mb-5'>
+                    <div className='row mt-5 pl-2 pr-2'>
 
                         {/* Contact Form */}
                         <div id='contactForm' className='col-md-12'>
                             <h1 className='p-3 text-white' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Contact</h1>
 
                             <form>
-                                <div className='row border border-dark'>
+                                <div className='row border border-white'>
 
                                     <input
-                                        className='col-md-6 border border-bottom-0 border-dark pt-1 pb-5'
+                                        className='col-md-6 bg-secondary text-white border border-bottom-0 border-white pt-1 pb-5'
                                         name='name'
                                         type='name'
                                         placeholder='First & Last Name'
@@ -86,7 +86,7 @@ class Contact extends Component {
                                     />
 
                                     <input
-                                        className='col-md-6 border border-bottom-0 border-dark pt-1 pb-5'
+                                        className='col-md-6 bg-secondary text-white border border-bottom-0 border-white pt-1 pb-5'
                                         name='hear'
                                         type='text'
                                         placeholder='How did you hear about us?'
@@ -97,10 +97,10 @@ class Contact extends Component {
 
                                 </div>
 
-                                <div className='row border border-top-0 border-dark'>
+                                <div className='row border border-top-0 border-white'>
 
                                     <input
-                                        className='col-md-6 border border-top-0 border-dark pt-1 pb-5'
+                                        className='col-md-6 bg-secondary text-white border border-top-0 border-white pt-1 pb-5'
                                         name='email'
                                         type='email'
                                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
@@ -111,7 +111,7 @@ class Contact extends Component {
                                     />
 
                                     <input
-                                        className='col-md-6 border border-top-0 border-dark pt-1 pb-5'
+                                        className='col-md-6 bg-secondary text-white border border-top-0 border-white pt-1 pb-5'
                                         name='phone'
                                         type='tel'
                                         placeholder='Phone Number'
@@ -121,9 +121,10 @@ class Contact extends Component {
                                     />
                                 </div>
 
-                                <div className='row border border-top-0 border-dark'>
+                                <div className='row border border-top-0 border-white'>
                                     <textarea
-                                        className='col-md-12 border border-top-0 border-dark pt-2 pb-5'
+                                        id='inputText'
+                                        className='col-md-12 bg-secondary text-white border border-top-0 border-white pt-2 pb-5'
                                         name='service'
                                         type='text'
                                         placeholder='How can we be of service to you?'
@@ -136,7 +137,7 @@ class Contact extends Component {
                             </form>
 
                             <div className='row justify-content-md-center'>
-                                <div className='col-md-6 text-center ml-4 mt-4 mr-4'>
+                                <div className='col-md-6 text-center m-4'>
                                     <button
                                         className='btn btn-block bg-white rounded-pill'
                                         name='submit'

@@ -9,7 +9,7 @@ const Title = () => {
     return (
         <>
             <Navbar className='row text-white' collapseOnSelect fixed='top' expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand className='p-1 pl-4' href="#home" style={{fontFamily: 'Architects Daughter', fontSize: '22px'}}><img className='ml-1 mr-3' src={Logo} alt='logo' style={{height: '35px'}}/>Mandeep Stylist</Navbar.Brand>
+                <Navbar.Brand className='p-1 pl-4' href="#home" style={{fontFamily: 'Josefin Slab', fontSize: '25px'}}><img className='ml-1 mr-3' src={Logo} alt='logo' style={{height: '35px'}}/><span className=''></span></Navbar.Brand>
                 <Navbar.Toggle className='mr-3' aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" style={{marginRight: '150px'}}>
                     <Nav className="m-auto" >

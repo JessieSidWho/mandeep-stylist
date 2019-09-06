@@ -2,6 +2,10 @@
     /* background: white; */
 }
 
+::placeholder{
+    color: white;
+}
+
 #contactForm{
     padding: auto;
 }
