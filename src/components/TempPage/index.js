@@ -4,9 +4,9 @@ import Tada from 'react-reveal/Tada';
 
 const Temp = () => {
     return (
-        <div id='tempRow' className='row justify-content-md-center p-5'>
+        <div id='tempRow' className='row justify-content-md-center'>
             <Tada delay='500' >
-                <div id='tempCol' className='col-md-7 m-5 p-5 rounded-lg border border-dark text-white'>
+                <div id='tempCol' className='col-md-7 mt-5 mb-5 p-5 rounded-lg  text-white text-center'>
                     <h1 className='text-center pt-5'>Welcome to MandeepStylist.com</h1>
                     <h3 className='text-center pt-5'>Currently I am Under Construction.</h3>
                     <h4 className='text-center pt-5'>For Inquiries, email <strong>MandeepStylist@gmail.com</strong></h4>
