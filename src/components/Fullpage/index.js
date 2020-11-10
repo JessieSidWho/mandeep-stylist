@@ -4,7 +4,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import Title from '../Title';
 import About from '../About';
 import Contact from '../Contact';
-import Footer from '../Footer';
+// import Footer from '../Footer';
 import "./styles.css";
 
 
@@ -22,7 +22,7 @@ class FullpageWrapper extends React.Component {
 
         <ReactFullpage
           scrollOverflow={true}
-          sectionsColor={['rgba(52,58,64,1)', 'rgba(52,58,64,.8)', '']}
+          sectionsColor={['rgba(52,58,64,)', 'rgba(52,58,64,.8)', '']}
           onLeave={this.onLeave.bind(this)}
           afterLoad={this.afterLoad.bind(this)}
           licenseKey = {'3566E2E4-60464E6C-8FB465AF-EE7F2E22'}
@@ -45,7 +45,7 @@ class FullpageWrapper extends React.Component {
             );
           }}
         />
-        <Footer/>
+        {/* <Footer/> */}
       </>
     );
   }
