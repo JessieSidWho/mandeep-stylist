@@ -73,10 +73,10 @@ class Contact extends Component {
                             <h1 className='p-3 text-white' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Contact</h1>
 
                             <form>
-                                <div className='row border border-white'>
+                                <div className='row'>
 
                                     <input
-                                        className='col-md-6 bg-secondary text-white border border-bottom-0 border-white pt-1 pb-5'
+                                        className='col-md-6 text-dark border border-secondary pt-1 pb-5'
                                         name='name'
                                         type='name'
                                         placeholder='First & Last Name'
@@ -86,7 +86,7 @@ class Contact extends Component {
                                     />
 
                                     <input
-                                        className='col-md-6 bg-secondary text-white border border-bottom-0 border-white pt-1 pb-5'
+                                        className='col-md-6 text-dark border border-secondary pt-1 pb-5'
                                         name='hear'
                                         type='text'
                                         placeholder='How did you hear about us?'
@@ -97,10 +97,10 @@ class Contact extends Component {
 
                                 </div>
 
-                                <div className='row border border-top-0 border-white'>
+                                <div className='row '>
 
                                     <input
-                                        className='col-md-6 bg-secondary text-white border border-top-0 border-white pt-1 pb-5'
+                                        className='col-md-6 text-dark border border-secondary  pt-1 pb-5'
                                         name='email'
                                         type='email'
                                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
@@ -111,7 +111,7 @@ class Contact extends Component {
                                     />
 
                                     <input
-                                        className='col-md-6 bg-secondary text-white border border-top-0 border-white pt-1 pb-5'
+                                        className='col-md-6 text-dark border border-secondary  pt-1 pb-5'
                                         name='phone'
                                         type='tel'
                                         placeholder='Phone Number'
@@ -121,10 +121,10 @@ class Contact extends Component {
                                     />
                                 </div>
 
-                                <div className='row border border-top-0 border-white'>
+                                <div className='row '>
                                     <textarea
                                         id='inputText'
-                                        className='col-md-12 bg-secondary text-white border border-top-0 border-white pt-2 pb-5'
+                                        className='col-md-12 text-dark border border-secondary  pt-2 pb-5'
                                         name='service'
                                         type='text'
                                         placeholder='How can we be of service to you?'

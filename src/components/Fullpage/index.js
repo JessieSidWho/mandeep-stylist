@@ -22,7 +22,7 @@ class FullpageWrapper extends React.Component {
 
         <ReactFullpage
           scrollOverflow={true}
-          sectionsColor={['rgba(52,58,64,)', 'rgba(52,58,64,.8)', '']}
+          sectionsColor={['rgba(52,58,64,)', 'rgba(52,58,64,)', 'rgb(105, 105, 105)']}
           onLeave={this.onLeave.bind(this)}
           afterLoad={this.afterLoad.bind(this)}
           licenseKey = {'3566E2E4-60464E6C-8FB465AF-EE7F2E22'}
@@ -38,7 +38,7 @@ class FullpageWrapper extends React.Component {
                   
                 </div>
 
-                <div id='contact' className="section bg-secondary">
+                <div id='contact' className="section">
                         <Contact />
                    </div>
               </div>
