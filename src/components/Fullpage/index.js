@@ -30,7 +30,7 @@ class FullpageWrapper extends React.Component {
             return (
               <div id="fullpage-wrapper">
 
-                <div id='about' className="section section1">
+                <div id='about' className="section section1 ">
                   <About />
                 </div>
 
