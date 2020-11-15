@@ -10,7 +10,9 @@ class Contact extends Component {
         hear: '',
         email: '',
         phone: '',
-        service: ''
+        service: '',
+        new_client: false,
+        existing_client: false
     };
 
     handleChange = event => {
@@ -65,13 +67,20 @@ class Contact extends Component {
         return (
             <div id='contact' className='row justify-content-around mt-3 mb-5'>
 
-                <div className='col-md-7 mt-5 mb-5'>
+                <div className='col-lg-7 mt-5 mb-5'>
                     <div className='row mt-5 pl-2 pr-2'>
 
-                        {/* Contact Form */}
-                        <div id='contactForm' className='col-md-12'>
-                            <h1 className='p-3 text-white' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Contact</h1>
+                        
+                        <div id='contactForm' className='col-lg-12'>
+                            <h1 className='p-3 text-white' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Book With Her</h1>
 
+                              <div id='buttons' className=''>
+                                <button id="new_client" type='button' className='font-weight-bold btn btn-info btn-lg btn-block mt-5 mb-5'>New Client</button>
+    
+                                <button id="existing_client" type='button' className='font-weight-bold btn btn-info btn-lg btn-block mt-5'>Existing Client</button>
+                              </div>
+
+                            {/* Contact Form */}
                             <form>
                                 <div className='row'>
 

@@ -4,7 +4,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import Title from '../Title';
 import About from '../About';
 import Contact from '../Contact';
-// import Footer from '../Footer';
+import Footer from '../Footer';
 import "./styles.css";
 
 
@@ -45,7 +45,9 @@ class FullpageWrapper extends React.Component {
             );
           }}
         />
-        {/* <Footer/> */}
+        <div id='footer'>
+          <Footer/>
+        </div>
       </>
     );
   }

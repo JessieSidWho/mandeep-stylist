@@ -24,3 +24,13 @@ h3 {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+#footer {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 768px){
+  #footer{
+      visibility: visible;
+  }
+}
