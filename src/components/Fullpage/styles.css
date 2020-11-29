@@ -17,13 +17,13 @@ h3 {
   text-align: center;
 }
 
-#about {
+/* #home {
   background: url('./../../images/logoOnly.png');
   background-attachment: fixed;
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center center;
-}
+} */
 
 #footer {
   visibility: hidden;

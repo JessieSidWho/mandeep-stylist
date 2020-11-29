@@ -1,7 +1,3 @@
-#contact{
-    /* background: white; */
-}
-
 ::placeholder{
     color: black;
 }
@@ -20,4 +16,17 @@
         margin: 5% !important;
         text-align: center;
     }
+}
+
+#contact-box {
+    position: relative;
+    background-image: linear-gradient(45deg, rgb(238, 205, 163), rgb(239, 98, 159));
+    transform: skewY(-19deg);
+    z-index: -2;
+} 
+#contact-content { 	
+    position: relative;
+	max-width: 50em;
+    margin: 0 auto; 
+    transform: skewY(19deg);
 }

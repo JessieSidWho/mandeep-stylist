@@ -11,8 +11,7 @@ class Contact extends Component {
         email: '',
         phone: '',
         service: '',
-        new_client: false,
-        existing_client: false
+        showForm: false
     };
 
     handleChange = event => {
@@ -63,100 +62,114 @@ class Contact extends Component {
     }
 
 
+    handleShowForm = event => {
+        event.preventDefault();
+        this.setState({ showForm: true })
+        console.log(this.showForm);
+    }
+
     render() {
         return (
-            <div id='contact' className='row justify-content-around mt-3 mb-5'>
+            <div id='contact-box' className='row justify-content-around mt-3 mb-5' >
 
-                <div className='col-lg-7 mt-5 mb-5'>
+                <div id='contact-content' className='col-lg-7 mt-5 mb-5' style={{minHeight: '100vh'}}>
                     <div className='row mt-5 pl-2 pr-2'>
 
                         
-                        <div id='contactForm' className='col-lg-12'>
-                            <h1 className='p-3 text-white' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Book With Her</h1>
-
+                        <div id='contactForm' className='col-lg-12 pt-5 mt-5'>
+                            <h1 className='p-3 text-white pt-5 mt-5' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Book With Her</h1>
+                              
+                              {!this.state.showForm ? 
                               <div id='buttons' className=''>
-                                <button id="new_client" type='button' className='font-weight-bold btn btn-info btn-lg btn-block mt-5 mb-5'>New Client</button>
+                                <button id="new_client" type='button' className='font-weight-bold btn btn-light btn-lg btn-block mt-5 mb-5' onClick={this.handleShowForm}>New Client</button>
     
-                                <button id="existing_client" type='button' className='font-weight-bold btn btn-info btn-lg btn-block mt-5'>Existing Client</button>
+                                <button id="existing_client" type='button' className='font-weight-bold btn btn-light btn-lg btn-block mt-5'>Existing Client</button>
                               </div>
+                              : null
+                              }
 
                             {/* Contact Form */}
-                            <form>
-                                <div className='row'>
-
-                                    <input
-                                        className='col-md-6 text-dark border border-secondary pt-1 pb-5'
-                                        name='name'
-                                        type='name'
-                                        placeholder='First & Last Name'
-                                        onChange={this.handleChange}
-                                        value={this.state.name}
-                                        required={true}  
-                                    />
-
-                                    <input
-                                        className='col-md-6 text-dark border border-secondary pt-1 pb-5'
-                                        name='hear'
-                                        type='text'
-                                        placeholder='How did you hear about us?'
-                                        onChange={this.handleChange}
-                                        value={this.state.hear}
-                                        required={true}
-                                    />
-
-                                </div>
-
-                                <div className='row '>
-
-                                    <input
-                                        className='col-md-6 text-dark border border-secondary  pt-1 pb-5'
-                                        name='email'
-                                        type='email'
-                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                                        placeholder='E-mail'
-                                        onChange={this.handleChange}
-                                        value={this.state.email}
-                                        required={true}
-                                    />
-
-                                    <input
-                                        className='col-md-6 text-dark border border-secondary  pt-1 pb-5'
-                                        name='phone'
-                                        type='tel'
-                                        placeholder='Phone Number'
-                                        onChange={this.handleChange}
-                                        value={this.state.phone}
-                                        required={true}
-                                    />
-                                </div>
-
-                                <div className='row '>
-                                    <textarea
-                                        id='inputText'
-                                        className='col-md-12 text-dark border border-secondary  pt-2 pb-5'
-                                        name='service'
-                                        type='text'
-                                        placeholder='How can we be of service to you?'
-                                        onChange={this.handleChange}
-                                        value={this.state.service}
-                                        required={true}
-                                    />
-                                </div>
-
-                            </form>
-
-                            <div className='row justify-content-md-center'>
-                                <div className='col-md-6 text-center m-4'>
-                                    <button
-                                        className='btn btn-block bg-white rounded-pill'
-                                        name='submit'
-                                        type='submit'
-                                        onClick={this.handleSubmit}
-                                    >
-                                        Submit
-                            </button>
-                                </div>
+                            {this.state.showForm ?
+                            <div>
+                              <form>
+                                  <div className='row'>
+  
+                                      <input
+                                          className='col-md-6 text-dark border border-secondary pt-1 pb-5'
+                                          name='name'
+                                          type='name'
+                                          placeholder='First & Last Name'
+                                          onChange={this.handleChange}
+                                          value={this.state.name}
+                                          required={true}  
+                                      />
+  
+                                      <input
+                                          className='col-md-6 text-dark border border-secondary pt-1 pb-5'
+                                          name='hear'
+                                          type='text'
+                                          placeholder='How did you hear about us?'
+                                          onChange={this.handleChange}
+                                          value={this.state.hear}
+                                          required={true}
+                                      />
+  
+                                  </div>
+  
+                                  <div className='row '>
+  
+                                      <input
+                                          className='col-md-6 text-dark border border-secondary  pt-1 pb-5'
+                                          name='email'
+                                          type='email'
+                                          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                          placeholder='E-mail'
+                                          onChange={this.handleChange}
+                                          value={this.state.email}
+                                          required={true}
+                                      />
+  
+                                      <input
+                                          className='col-md-6 text-dark border border-secondary  pt-1 pb-5'
+                                          name='phone'
+                                          type='tel'
+                                          placeholder='Phone Number'
+                                          onChange={this.handleChange}
+                                          value={this.state.phone}
+                                          required={true}
+                                      />
+                                  </div>
+  
+                                  <div className='row '>
+                                      <textarea
+                                          id='inputText'
+                                          className='col-md-12 text-dark border border-secondary  pt-2 pb-5'
+                                          name='service'
+                                          type='text'
+                                          placeholder='How can we be of service to you?'
+                                          onChange={this.handleChange}
+                                          value={this.state.service}
+                                          required={true}
+                                      />
+                                  </div>
+  
+                              </form>
+  
+                              <div className='row justify-content-md-center'>
+                                  <div className='col-md-6 text-center m-4'>
+                                      <button
+                                          className='btn btn-block bg-white rounded-pill'
+                                          name='submit'
+                                          type='submit'
+                                          onClick={this.handleSubmit}
+                                      >
+                                          Submit
+                                      </button>
+                                  </div>
+                              </div>
                             </div>
+                            : null
+                            }
 
                         </div>
 

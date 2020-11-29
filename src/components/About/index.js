@@ -1,11 +1,12 @@
 import React from 'react';
-// import MainPic from '../../images/graffiti.jpg';
 import './about.css';
 
 const About = () => {
     return (
-        <div className='row justify-content-md-center' style={{minHeight: '100vh'}}>
-            
+        <div id='about-box' className='' style={{minHeight: '100vh'}}>
+            <div id='about-content' style={{minHeight: '100vh'}}>
+                
+            </div>
 
         </div>
     )

@@ -8,17 +8,23 @@
     background-position: center; */
 }
 
-#about-box {
+#home-box {
     position: relative;
-    background-image: linear-gradient(45deg, rgb(238, 205, 163), rgb(239, 98, 159));
-    transform: skewY(-19deg);
+    background-image: linear-gradient(45deg, rgba(255, 216, 155, .8), rgba(25, 84, 123, .8));
+    transform: skewY(19deg);
     z-index: -2;
 } 
-#about-content { 	
+#home-content { 	
     position: relative;
 	max-width: 50em;
     margin: 0 auto; 
-    transform: skewY(19deg);
+    transform: skewY(-19deg);
+    background: url('./../../images/logoOnly.png');
+    background-attachment: fixed;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
 }
 
 
