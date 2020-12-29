@@ -1,12 +1,12 @@
 #herWork-box {
     position: relative;
-    background-image: linear-gradient(45deg, rgba(255, 216, 155, .8), rgb(119, 158, 203));
-    transform: skewY(19deg);
+    background-image: linear-gradient(45deg, rgba(255, 216, 155, .8), rgba(25, 84, 123, .8));
+    transform: skewY(0deg);
     z-index: -2;
 } 
 #herWork-content { 	
     position: relative;
 	max-width: 100em;
     margin: 0 auto; 
-    transform: skewY(-19deg);
+    transform: skewY(0deg);
 }

@@ -20,13 +20,13 @@
 
 #contact-box {
     position: relative;
-    background-image: linear-gradient(45deg, rgb(238, 205, 163), rgb(239, 98, 159));
-    transform: skewY(-19deg);
+    background-image: linear-gradient(45deg, rgb(183, 110, 121), rgb(238, 205, 163));
+    transform: skewY(0deg);
     z-index: -2;
 } 
 #contact-content { 	
     position: relative;
-	max-width: 50em;
+	max-width: 100em;
     margin: 0 auto; 
-    transform: skewY(19deg);
+    transform: skewY(0deg);
 }

@@ -70,7 +70,7 @@ class Contact extends Component {
 
     render() {
         return (
-            <div id='contact-box' className='row justify-content-around mt-3 mb-5' >
+            <div id='contact-box' className='row justify-content-around ' >
 
                 <div id='contact-content' className='col-lg-7 mt-5 mb-5' style={{minHeight: '100vh'}}>
                     <div className='row mt-5 pl-2 pr-2'>
