@@ -16,16 +16,26 @@
 } 
 #home-content { 	
     position: relative;
-	max-width: 50em;
+	max-width: 75em;
     margin: 0 auto; 
     transform: skewY(0deg);
     background: url('./../../images/logoOnly.png');
     background-attachment: fixed;
-    background-size: 35%;
+    background-size: 33%;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 2;
+    margin: 5% auto;
+    padding: auto;
+    
 }
 
+#bio-box {
+    background-color: rgba(90, 90, 90, 0.3);
+}
+
+#bio {
+    vertical-align: auto;
+}
 
 
