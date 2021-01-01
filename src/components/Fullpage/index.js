@@ -3,7 +3,7 @@ import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverf
 import ReactFullpage from "@fullpage/react-fullpage";
 import Title from '../Title';
 import Home from '../Home';
-import About from '../About';
+import Services from '../Services';
 import HerWork from '../HerWork';
 import Contact from '../Contact';
 import Footer from '../Footer';
@@ -36,8 +36,8 @@ class FullpageWrapper extends React.Component {
                   <Home />
                 </div>
 
-                <div id='about' className="section">
-                  <About/>
+                <div id='services' className="section">
+                  <Services/>
                 </div>
 
                 <div id='herWork' className="section">

@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 // import Logo from '../../images/logoOnlyWhite.png';
-import './style.css';
+import './title.css';
 
 
 const Title = () => {
@@ -14,7 +14,7 @@ const Title = () => {
                 <Navbar.Toggle className='mr-3' aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" style={{marginRight: '30px'}}>
                     <Nav className="pt-2 ml-auto pr-0" >
-                        <Nav.Link className='nav-item active p-1 pl-5 text-white ' href="#about" style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}>About Mandeep</Nav.Link>
+                        <Nav.Link className='nav-item active p-1 pl-5 text-white ' href="#services" style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}>Services</Nav.Link>
                         <NavDropdown className='pt-1 pb-0 pl-5 ' title={<span className='nav-item active text-white'>Her Work</span>} id="basic-nav-dropdown" style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}>
                           <NavDropdown.Item href="#herWork">Services</NavDropdown.Item>
                           <NavDropdown.Item target="_blank" href="http://instagram.com/mandeepstylist">Instagram</NavDropdown.Item>

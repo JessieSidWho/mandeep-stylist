@@ -7,6 +7,10 @@
     /* padding-bottom: 0; */
 }
 
+#basic-nav-dropdown::after {
+     content: none;
+}
+
 #navbar {
     background-color: black;
 }
