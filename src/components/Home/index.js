@@ -5,11 +5,11 @@ import mshoker from '../../images/MSHOKER.jpeg';
 const Home = () => {
     return (
         <div id='home-box' className='row' style={{minHeight: '100vh', minWidth: '100vw'}}>
-            <div id='home-content' className='col-md-12 pt-5' style={{minHeight: '75vh', minWidth: '75vw'}}>
+            <div id='home-content' className='col-md-12 pt-5 pb-5 mb-5' style={{minHeight: '75vh', minWidth: '75vw'}}>
 
                 <div id='bio-box' className='row justify-content-md-center align-items-center m-3'>
                    <div className='col-md-4 m-2'>
-                         <img className='' src={mshoker} alt='' width='105%' ></img>
+                         <img id='bio-pic' className='' src={mshoker} alt='' width='105%' ></img>
                    </div>
 
                     <div className='col-md-7 justify-content-md-center '>

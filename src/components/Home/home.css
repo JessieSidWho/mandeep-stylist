@@ -39,4 +39,11 @@
     vertical-align: auto;
 }
 
-
+@media only screen and (max-width: 769px){
+    #bio-pic{
+        width: 50%;
+    }
+    #bio{
+        font-size: 1.1em !important;
+    }
+}

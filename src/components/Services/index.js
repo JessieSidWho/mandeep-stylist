@@ -3,7 +3,7 @@ import './services.css';
 
 const Services = () => {
     return (
-        <div id='services-box' className='row pt-5' style={{minHeight: '100vh', minWidth: '100vw'}}>
+        <div id='services-box' className='row pt-5 pb-5' style={{minHeight: '100vh', minWidth: '100vw'}}>
             <div id='services-content' className='col-md-12 mt-1 mb-5 pt-3 ' style={{minHeight: '100vh', minWidth: '75vw'}}>
                 <div className='row justify-content-sm-center m-3'>
                     <table className='col-md-7 '>
@@ -98,12 +98,12 @@ const Services = () => {
                             </tr>
                             <tr>
                               <th></th>
-                              <td>Balage</td>
+                              <td>Balayage</td>
                               <td></td>
                             </tr>
                             <tr>
                               <th></th>
-                              <td>Foilage</td>
+                              <td>Foilyage</td>
                               <td></td>
                             </tr>
                             <tr>
@@ -124,7 +124,7 @@ const Services = () => {
                               {/* Hair Texture */}
                             <tr>
                               <th>Hair Texture</th>
-                              <td>Keratin Express/Brazilian BlowOut<br></br>&#40;Formaldehyde Free&#41;</td>
+                              <td>Keratin EXPRESS<br></br>&#40;Formaldehyde Free&#41;</td>
                               <td></td>
                             </tr>
                             <tr>
@@ -135,12 +135,12 @@ const Services = () => {
                               {/* Hair Extension */}
                             <tr>
                               <th>Hair Extensions</th>
-                              <td>Microlinks - New Set</td>
+                              <td>Microlink: New Installation</td>
                               <td></td>
                             </tr>
                             <tr>
                               <th></th>
-                              <td>Microlinks Push-up</td>
+                              <td>Microlink: Push-up</td>
                               <td></td>
                             </tr>
                           </tbody>
