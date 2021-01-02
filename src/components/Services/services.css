@@ -21,5 +21,17 @@
     transform: skewY(0deg);
 }
 
+th {
+    font-size: 1.6em;
+    margin: auto;
+    padding: auto;
+}
+
+td {
+    font-size: 1.5em;
+    margin: auto;
+    padding: auto;
+}
+
 
 

@@ -19,7 +19,7 @@
 	max-width: 75em;
     margin: 0 auto; 
     transform: skewY(0deg);
-    background: url('./../../images/logoOnly.png');
+    /* background: url('./../../images/logoOnly.png'); */
     background-attachment: fixed;
     background-size: 33%;
     background-repeat: no-repeat;
@@ -32,6 +32,7 @@
 
 #bio-box {
     background-color: rgba(90, 90, 90, 0.3);
+    height: 100%;
 }
 
 #bio {
