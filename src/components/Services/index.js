@@ -62,6 +62,11 @@ const Services = () => {
                             </tr>
                             <tr>
                               <th></th>
+                              <td>Extension Cut</td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th></th>
                               <td>Bang Trim</td>
                               <td></td>
                             </tr>
