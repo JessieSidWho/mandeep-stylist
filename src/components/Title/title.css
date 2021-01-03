@@ -1,5 +1,7 @@
-@media screen and (max-width: 480px) {
-    
+@media screen and (max-width: 769px) {
+    .navbar-toggler-icon{
+        color: white !important;
+    }
 }
 
 #basic-nav-dropdown {
