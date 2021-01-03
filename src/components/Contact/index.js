@@ -65,7 +65,7 @@ class Contact extends Component {
     handleShowForm = event => {
         event.preventDefault();
         this.setState({ showForm: true })
-        console.log(this.showForm);
+        // console.log(this.showForm);
     }
 
     render() {
