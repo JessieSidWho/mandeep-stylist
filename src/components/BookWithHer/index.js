@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './contact.css';
+import './bookWithHer.css';
 // import * as emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 
@@ -72,30 +72,29 @@ class Contact extends Component {
         return (
             <div id='contact-box' className='row justify-content-around ' >
 
-                <div id='contact-content' className='col-lg-7 mt-5 mb-5' style={{minHeight: '100vh'}}>
-                    <div className='row mt-5 pl-2 pr-2'>
-
+                <div id='contact-content' className='col-lg-12  mt-5 pt-5 ' style={{minHeight: '100vh'}}>
+                    <p id='bwhTitle' className='pt-5' style={{fontSize: '2.5em', fontWeight: 'bolder'}}>Book With Her</p>
+                    <div className='row justify-content-md-center pl-2 pr-2 '>
                         
-                        <div id='contactForm' className='col-lg-12 pt-5 mt-5'>
-                            <h1 className='p-3 text-white pt-5 mt-5' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Book With Her</h1>
+                        <div id='contactForm' className='col-md-10 pt-5 '>
                               
-                              {!this.state.showForm ? 
+                              {/* {!this.state.showForm ? 
                               <div id='buttons' className=''>
                                 <button id="new_client" type='button' className='font-weight-bold btn btn-light btn-lg btn-block mt-5 mb-5' onClick={this.handleShowForm}>New Client</button>
     
                                 <button id="existing_client" type='button' className='font-weight-bold btn btn-light btn-lg btn-block mt-5'>Existing Client</button>
                               </div>
                               : null
-                              }
+                              } */}
 
                             {/* Contact Form */}
-                            {this.state.showForm ?
+                            {/* {this.state.showForm ? */}
                             <div>
                               <form>
-                                  <div className='row'>
+                                  <div className='row justify-content-sm-center p-1'>
   
                                       <input
-                                          className='col-md-6 text-dark border border-secondary pt-1 pb-5'
+                                          className='col-md-5 mr-1 text-dark p-3 pb-5 border-top-0 border-left-0 border-right-0 '
                                           name='name'
                                           type='name'
                                           placeholder='First & Last Name'
@@ -105,7 +104,7 @@ class Contact extends Component {
                                       />
   
                                       <input
-                                          className='col-md-6 text-dark border border-secondary pt-1 pb-5'
+                                          className='col-md-5 ml-1 text-dark p-3 pb-5 border-top-0 border-left-0 border-right-0'
                                           name='hear'
                                           type='text'
                                           placeholder='How did you hear about us?'
@@ -116,10 +115,10 @@ class Contact extends Component {
   
                                   </div>
   
-                                  <div className='row '>
+                                  <div className='row justify-content-sm-center p-1'>
   
                                       <input
-                                          className='col-md-6 text-dark border border-secondary  pt-1 pb-5'
+                                          className='col-md-5 mr-1 text-dark p-3 pb-5 border-top-0 border-left-0 border-right-0'
                                           name='email'
                                           type='email'
                                           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
@@ -130,7 +129,7 @@ class Contact extends Component {
                                       />
   
                                       <input
-                                          className='col-md-6 text-dark border border-secondary  pt-1 pb-5'
+                                          className='col-md-5 ml-1 p-3 pb-5 text-dark border-top-0 border-left-0 border-right-0'
                                           name='phone'
                                           type='tel'
                                           placeholder='Phone Number'
@@ -140,13 +139,13 @@ class Contact extends Component {
                                       />
                                   </div>
   
-                                  <div className='row '>
+                                  <div className='row justify-content-sm-center'>
                                       <textarea
                                           id='inputText'
-                                          className='col-md-12 text-dark border border-secondary  pt-2 pb-5'
+                                          className='col-md-10 text-dark  pt-2 pb-5 border-top-0 border-left-0 border-right-0'
                                           name='service'
                                           type='text'
-                                          placeholder='How can we be of service to you?'
+                                          placeholder='What services are you interested in?'
                                           onChange={this.handleChange}
                                           value={this.state.service}
                                           required={true}
@@ -155,10 +154,10 @@ class Contact extends Component {
   
                               </form>
   
-                              <div className='row justify-content-md-center'>
+                              <div className='row justify-content-md-center '>
                                   <div className='col-md-6 text-center m-4'>
                                       <button
-                                          className='btn btn-block bg-white rounded-pill'
+                                          className='btn  btn-outline-secondary rounded-0 '
                                           name='submit'
                                           type='submit'
                                           onClick={this.handleSubmit}
@@ -168,12 +167,49 @@ class Contact extends Component {
                                   </div>
                               </div>
                             </div>
-                            : null
-                            }
+                            {/* : null
+                            } */}
 
                         </div>
 
                     </div>
+
+                    <div id='addressHours' className='row justify-content-md-center pl-2 pr-2 pt-1 pb-5'>
+                        <div id='adress' className='col-md-4  text-left p-1'>
+                            <div className='p-1 pl-4 pb-3' >
+                              <p style={{fontWeight: 'bolder'}}>Address</p>
+                              <p style={{fontWeight: 'bold'}}>660 Market St, 2nd Floor<br></br>Suite 214<br></br>San Francisco, CA 94104</p>
+                            </div>
+                             
+                        </div>
+
+                        <div id='' className='col-md-4  text-left pl-3 pb-5'>
+                            <table>
+                            <thead>
+                                <tr>
+                                  <th id='thHours' className='p-2 pt-2 pl-3'>Hours</th>
+                                  <th></th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td className='pl-3'>Tue - Sat</td>
+                                  <td className='pl-3'>11am - 7pm</td>
+                                </tr>
+                                <tr>
+                                  <td className='pl-3 pt-3' style={{fontWeight: 'bolder'}}>Email:</td>
+                                  <td className='pl-3 pt-3'>MandeepStylist@gmail.com</td>
+                                </tr>
+                                <tr>
+                                  <td></td>
+                                  <td className='pl-3 '>&#40;Or use the contact form above&#41;</td>
+                                </tr>                             
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>

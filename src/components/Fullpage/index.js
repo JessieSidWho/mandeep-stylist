@@ -5,7 +5,7 @@ import Title from '../Title';
 import Home from '../Home';
 import Services from '../Services';
 import HerWork from '../HerWork';
-import Contact from '../Contact';
+import BookWithHer from '../BookWithHer';
 import Footer from '../Footer';
 import "./styles.css";
 
@@ -44,8 +44,8 @@ class FullpageWrapper extends React.Component {
                   <HerWork/>
                 </div>
 
-                <div id='contact' className="section">
-                  <Contact />
+                <div id='bookWithHer' className="section">
+                  <BookWithHer />
                 </div>
               </div>
             );

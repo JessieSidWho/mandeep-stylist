@@ -38,6 +38,10 @@ td {
     th,td{
         font-size: 1.1em !important;
     }
+    #services-box {
+        padding-bottom: 15% !important;
+        padding-top: 0% !important;
+    }
 }
 
 

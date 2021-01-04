@@ -3,12 +3,12 @@ import './services.css';
 
 const Services = () => {
     return (
-        <div id='services-box' className='row pt-5 pb-5 ' style={{minHeight: '100vh', minWidth: '100vw'}}>
-            <div id='services-content' className='col-md-12 mt-1 mb-5 pt-3 ' style={{minHeight: '100vh', minWidth: '75vw'}}>
+        <div id='services-box' className='row pt-5 ' style={{minHeight: '100vh', minWidth: '100vw'}}>
+            <div id='services-content' className='col-md-12 mt-1 pt-3 ' style={{minHeight: '100vh', minWidth: '75vw'}}>
                 <div className='row justify-content-sm-center m-3'>
                   <div className='col-md-12 pt-5'>
 
-                      <div className=' pb-2'>
+                      <div className=' '>
                         <p style={{fontSize: '2.5em', fontWeight: 'bolder'}}>Services + Pricing</p>
                       </div>
 

@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React, { useState, Component } from 'react';
 // import Gallery from "react-photo-gallery";
 // import Carousel, { Modal, ModalGateway } from "react-images";
 // import { photos } from "../../images/photos";
+// import Modal from 'react-bootstrap/Modal';
+// import Button from 'react-bootstrap/Button';
 import B from '../../images/B.jpeg';
 import BT from '../../images/BT.jpeg';
 import Creative from '../../images/Creative.jpeg';
@@ -67,12 +69,16 @@ class HerWork extends Component {
     event.preventDefault();
     this.setState({ showKeratin: true })
   }
+  
+  // const [show, setShow] = useState(false);
+
+  // handleClose = () => setShow(false);
+  // handleShow = () => setShow(true);
 
 
   render(){
     return(
       
-
         <div id='herWork-box' className='row align-items-center pt-5'>
           <div id='herWork-content' className='col-md-12 pt-5 ' style={{minHeight: '100vh'}}>
 
@@ -81,30 +87,55 @@ class HerWork extends Component {
             <div id='options-box' className='row justify-content-md-center border pt-5 pb-5'>
               <div className='col-md-8'>
 
+              {/* <Button variant="primary" onClick={handleShow}>
+                Launch static backdrop modal
+              </Button>
+        
+              <Modal
+                show={show}
+                onHide={handleClose}
+                backdrop="static"
+                keyboard={false}
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title>Modal title</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  I will not close if you click outside me. Don't even try to press
+                  escape key.
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="secondary" onClick={handleClose}>
+                    Close
+                  </Button>
+                  <Button variant="primary">Understood</Button>
+                </Modal.Footer>
+              </Modal> */}
+
                 <div className='row '>
-                  <div className='col-sm-4 ' onClick={this.handleShowBalayage}>
+                  <div className='col-sm-4 '>
                     <p style={{fontSize: '1.5em'}}>Balayage</p>
                     <img className='p-2' src={B} alt='' width='68%'></img>
                   </div>
 
-                  <div className='col-sm-4 ' onClick={this.handleShowBleachTone}>
+                  <div className='col-sm-4 '>
                     <p style={{fontSize: '1.5em'}}>Bleach + Tone</p>
                     <img className='p-2' src={BT} alt='' width='72%'></img>
                   </div>
 
-                  <div className='col-sm-4 ' onClick={this.handleShowCreativeColor}>
+                  <div className='col-sm-4 '>
                     <p style={{fontSize: '1.5em'}}>Creative Color</p>
                     <img className='p-2' src={Creative} alt='' width='60%'></img>
                   </div>
                 </div>
 
                 <div className='row'>
-                  <div className='col-sm-6' onClick={this.handleShowColorCorrection}>
+                  <div className='col-sm-6' >
                     <p style={{fontSize: '1.5em'}}>Color Correction</p>
                     <img className='p-2' src={Correction} alt='' width='70%'></img>
                   </div>
 
-                  <div className='col-sm-6' onClick={this.handleShowKeratin}>
+                  <div className='col-sm-6'>
                     <p style={{fontSize: '1.5em'}}>Keratin</p>
                     <img className='p-2' src={Keratin} alt='' width='70%'></img>
                   </div>
