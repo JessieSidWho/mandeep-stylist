@@ -70,13 +70,13 @@ class Contact extends Component {
 
     render() {
         return (
-            <div id='contact-box' className='row justify-content-around ' >
+            <div id='bookWithHer-box' className='row justify-content-around ' >
 
-                <div id='contact-content' className='col-lg-12  mt-5 pt-5 ' style={{minHeight: '100vh'}}>
+                <div id='bookWithHer-content' className='col-lg-12  mt-5 pt-5 ' style={{minHeight: '100vh'}}>
                     <p id='bwhTitle' className='pt-5' style={{fontSize: '2.5em', fontWeight: 'bolder'}}>Book With Her</p>
                     <div className='row justify-content-md-center pl-2 pr-2 '>
                         
-                        <div id='contactForm' className='col-md-10 pt-5 '>
+                        <div id='contactForm' className='col-md-10  '>
                               
                               {/* {!this.state.showForm ? 
                               <div id='buttons' className=''>
@@ -142,7 +142,7 @@ class Contact extends Component {
                                   <div className='row justify-content-sm-center'>
                                       <textarea
                                           id='inputText'
-                                          className='col-md-10 text-dark  pt-2 pb-5 border-top-0 border-left-0 border-right-0'
+                                          className='col-md-10 text-dark pt-2 pb-5 border-top-0 border-left-0 border-right-0'
                                           name='service'
                                           type='text'
                                           placeholder='What services are you interested in?'
