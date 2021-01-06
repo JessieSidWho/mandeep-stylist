@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './bookWithHer.css';
-// import * as emailjs from 'emailjs-com';
+import * as emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 
 class Contact extends Component {
@@ -28,35 +28,35 @@ class Contact extends Component {
     handleSubmit = event => {
         event.preventDefault();
 
-        // let template_params = {
-        //     "name": this.state.name,
-        //     "email": this.state.email,
-        //     "phone": this.state.phone,
-        //     "hear": this.state.hear,
-        //     "service": this.state.service
-        //  }
+        let template_params = {
+            "name": this.state.name,
+            "email": this.state.email,
+            "phone": this.state.phone,
+            "hear": this.state.hear,
+            "service": this.state.service
+         }
          
-        //  let service_id = "default_service";
-        //  let template_id = "template_pvkoSJSW";
-        //  let user_id = "user_8g6W8dwcvNZ7EWVlS7jMg";
+         let service_id = "dservice_s6xyc8s";
+         let template_id = "template_snxf0ew";
+         let user_id = "user_4YTMHSdjDPA85Z7J9KVK4";
 
-        //  emailjs.send(service_id, template_id, template_params, user_id)
-        //  .then((response) => {
+         emailjs.send(service_id, template_id, template_params, user_id)
+         .then((response) => {
             Swal.fire({
                 title: 'SUCCESS!',
-                text: 'Mandeep Stylist has received your Inquery!!',
+                text: 'Mandeep Stylist has received your inquiry and will get back to you within 24 hours.',
                 imageUrl: 'https://drive.google.com/uc?id=1aD_WWpfHGzfmYoSht0YV2-eBb0Bvleps',
                 imageWidth: 350,
                 imageHeight: 300,
                 imageAlt: 'Custom image',
                 animation: false
               })
-        //     // console.log('SUCCESS!', response.status, response.text);
-        //  }, (err) => {
-            // Swal.fire('Uh oh . .', 
-            // 'You\'re Inquiry was not sent. If this error keeps occuring, please Email directly at: MandeepStylist@gmail.com', 'error')
-        //     // console.log('FAILED...', err);
-        //  });
+            // console.log('SUCCESS!', response.status, response.text);
+         }, (err) => {
+            Swal.fire('Uh oh . .', 
+            'You\'re Inquiry was not sent. If this error keeps occuring, please Email directly at: MandeepStylist@gmail.com', 'error')
+            // console.log('FAILED...', err);
+         });
 
         this.setState({ name: '', hear: '', email: '', phone: '', service: '' });
     }
