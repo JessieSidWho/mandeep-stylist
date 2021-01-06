@@ -16,7 +16,7 @@ const Title = () => {
                     <Nav className="pt-2 ml-auto pr-0" >
                         <Nav.Link className='nav-item active p-1 pl-5 text-white ' href="#services" style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}>Services</Nav.Link>
                         <NavDropdown className='pt-1 pb-0 pl-5 ' title={<span className='nav-item active text-white'>Her Work</span>} id="basic-nav-dropdown" style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}>
-                          <NavDropdown.Item href="#herWork">Services</NavDropdown.Item>
+                          <NavDropdown.Item href="#herWork">Her Work</NavDropdown.Item>
                           <NavDropdown.Item target="_blank" href="http://instagram.com/mandeepstylist">Instagram</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link className='nav-item active p-1 pl-5 text-white ' href="#bookWithHer" style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}>Book With Her</Nav.Link>

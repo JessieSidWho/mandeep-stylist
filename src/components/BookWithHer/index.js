@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './bookWithHer.css';
 import * as emailjs from 'emailjs-com';
+import{ init } from 'emailjs-com';
 import Swal from 'sweetalert2';
+init("user_4YTMHSdjDPA85Z7J9KVK4");
 
 class Contact extends Component {
 
@@ -175,8 +177,8 @@ class Contact extends Component {
                     </div>
 
                     <div id='addressHours' className='row justify-content-md-center pl-2 pr-2 pt-1 pb-5'>
-                        <div id='adress' className='col-md-4  text-left p-1'>
-                            <div className='p-1 pl-4 pb-3' >
+                        <div id='adress' className='col-md-4 text-left p-1'>
+                            <div className='p-1 pt-2 pl-4 pb-3' style={{fontSize: '1.4em'}}>
                               <p style={{fontWeight: 'bolder'}}>Address</p>
                               <p style={{fontWeight: 'bold'}}>660 Market St, 2nd Floor<br></br>Suite 214<br></br>San Francisco, CA 94104</p>
                             </div>
