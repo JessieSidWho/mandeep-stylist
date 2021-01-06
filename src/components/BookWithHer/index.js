@@ -76,7 +76,7 @@ class Contact extends Component {
 
                 <div id='bookWithHer-content' className='col-lg-12  mt-5 pt-5 ' style={{minHeight: '100vh'}}>
                     <p id='bwhTitle' className='pt-5' style={{fontSize: '2.5em', fontWeight: 'bolder'}}>Book With Her</p>
-                    <div className='row justify-content-md-center pl-2 pr-2 '>
+                    {/* <div className='row justify-content-md-center pl-2 pr-2 '>
                         
                         <div id='contactForm' className='col-md-10  '>
                               
@@ -91,7 +91,7 @@ class Contact extends Component {
 
                             {/* Contact Form */}
                             {/* {this.state.showForm ? */}
-                            <div>
+                            {/*<div>
                               <form>
                                   <div className='row justify-content-sm-center p-1'>
   
@@ -170,13 +170,13 @@ class Contact extends Component {
                               </div>
                             </div>
                             {/* : null
-                            } */}
+                            } 
 
                         </div>
 
-                    </div>
+                    </div> */}
 
-                    <div id='addressHours' className='row justify-content-md-center pl-2 pr-2 pt-1 pb-5'>
+                    <div id='addressHours' className='row justify-content-md-center pl-2 pr-2 pt-2 pb-5'>
                         <div id='adress' className='col-md-4 text-left p-1'>
                             <div className='p-1 pt-2 pl-4 pb-3' style={{fontSize: '1.4em'}}>
                               <p style={{fontWeight: 'bolder'}}>Address</p>
@@ -204,7 +204,7 @@ class Contact extends Component {
                                 </tr>
                                 <tr>
                                   <td></td>
-                                  <td className='pl-3 '>&#40;Or use the contact form above&#41;</td>
+                                  <td className='pl-3 '></td>
                                 </tr>                             
                                 </tbody>
                             </table>
