@@ -36,7 +36,7 @@ class Contact extends Component {
             "service": this.state.service
          }
          
-         let service_id = "dservice_s6xyc8s";
+         let service_id = "service_s6xyc8s";
          let template_id = "template_snxf0ew";
          let user_id = "user_4YTMHSdjDPA85Z7J9KVK4";
 
