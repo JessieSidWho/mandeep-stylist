@@ -1,0 +1,10 @@
+#location-box{
+    background-color: black !important;
+    color: white !important;
+}
+
+@media only screen and (max-width: 769px){
+    #location-box{
+        padding-bottom: 15% !important;
+    }
+}

@@ -84,7 +84,7 @@ class HerWork extends Component {
 
             {/* Options Buttons */}
             {!this.state.showBalayage && !this.state.showBleachTone && !this.state.showColorCorrection && !this.state.showCreativeColor && !this.state.showKeratin ?
-            <div id='options-box' className='row justify-content-md-center border pt-5 pb-5'>
+            <div id='options-box' className='row justify-content-md-center pt-5 pb-5'>
               <div className='col-md-8'>
 
               {/* <Button variant="primary" onClick={handleShow}>

@@ -1,7 +1,7 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "../../../photos";
+import { photos } from "./photos";
 
 function Hair() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -18,14 +18,12 @@ function Hair() {
   };
 
   return (
-    <div className='row justify-content-md-center'>
-        <div className=' slide col-md-11 pt-5'>
+    <div>
       <Gallery photos={photos} onClick={openLightbox} />
-      <ModalGateway className=''>
+      <ModalGateway>
         {viewerIsOpen ? (
-          <Modal className='' onClose={closeLightbox}>
+          <Modal onClose={closeLightbox}>
             <Carousel
-                className=''
               currentIndex={currentImage}
               views={photos.map(x => ({
                 ...x,
@@ -36,7 +34,6 @@ function Hair() {
           </Modal>
         ) : null}
       </ModalGateway>
-      </div>
     </div>
   );
 }

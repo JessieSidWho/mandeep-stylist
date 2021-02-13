@@ -3,16 +3,16 @@ import './services.css';
 
 const Services = () => {
     return (
-        <div id='services-box' className='row pt-5 ' style={{minHeight: '100vh', minWidth: '100vw'}}>
-            <div id='services-content' className='col-md-12 mt-1 pt-3 ' style={{minHeight: '100vh', minWidth: '75vw'}}>
+        <div id='services-box' className='row ' >
+            <div id='services-content' className='col-md-12 mt-5  ' style={{minHeight: '75vh', minWidth: '75vw'}}>
                 <div className='row justify-content-sm-center m-3'>
-                  <div className='col-md-12 pt-5'>
+                  <div className='col-md-12 pt-3'>
 
-                      <div className=' '>
+                      <div className='text-center pb-5'>
                         <p style={{fontSize: '2.5em', fontWeight: 'bolder'}}>Services + Pricing</p>
                       </div>
 
-                    <div className='row justify-content-md-center border'>
+                    <div className='row justify-content-md-center'>
                         <table className='col-md-6'>    
                             <div className=" text-left ">
                               <thead>

@@ -4,8 +4,11 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import Title from '../Title';
 import Home from '../Home';
 import Services from '../Services';
+// import Hair from '../Hair';
+// import Form from '../Form';
 import HerWork from '../HerWork';
 import BookWithHer from '../BookWithHer';
+import Location from '../Location';
 import Footer from '../Footer';
 import "./styles.css";
 
@@ -32,21 +35,26 @@ class FullpageWrapper extends React.Component {
             return (
               <div id="fullpage-wrapper">
 
-                <div id='home' className="section section1 ">
+                <div id='home' className="section ">
+                  {/* <Form/> */}
                   <Home />
+                  <Services/>
+                  <HerWork/>
+                  <BookWithHer />
+                  <Location/>
                 </div>
 
-                <div id='services' className="section">
-                  <Services/>
+                {/* <div id='services' className="section">
+                  
                 </div>
 
                 <div id='herWork' className="section">
-                  <HerWork/>
+                  
                 </div>
 
                 <div id='bookWithHer' className="section">
-                  <BookWithHer />
-                </div>
+                  
+                </div> */}
               </div>
             );
           }}

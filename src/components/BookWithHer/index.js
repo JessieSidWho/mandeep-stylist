@@ -5,18 +5,24 @@ import{ init } from 'emailjs-com';
 import Swal from 'sweetalert2';
 init("user_4YTMHSdjDPA85Z7J9KVK4");
 
-class Contact extends Component {
+class BookWithHer extends Component {
+    onLeave(origin, destination, direction) {
+      console.log("Leaving section " + origin.index);
+    }
+    afterLoad(origin, destination, direction) {
+      console.log("After load: " + destination.index);
+    }
 
     state = {
         name: '',
         hear: '',
         email: '',
         phone: '',
-        service: '',
-        showForm: false
+        service: ''
     };
 
     handleChange = event => {
+        event.preventDefault();
         // Pull the name and value properties off of the event.target (the element which triggered the event)
         const { name, value } = event.target;
 
@@ -38,8 +44,8 @@ class Contact extends Component {
             "service": this.state.service
          }
          
-         let service_id = "service_s6xyc8s";
-         let template_id = "template_snxf0ew";
+         let service_id = "service_e0fjbdm";
+         let template_id = "template_Mandeep_Stylist";
          let user_id = "user_4YTMHSdjDPA85Z7J9KVK4";
 
          emailjs.send(service_id, template_id, template_params, user_id)
@@ -72,26 +78,15 @@ class Contact extends Component {
 
     render() {
         return (
-            <div id='bookWithHer-box' className='row justify-content-around ' >
+            <div id='bookWithHer-box' className='row justify-content-around mt-5 pt-5 mb-3' >
 
-                <div id='bookWithHer-content' className='col-lg-12  mt-5 pt-5 ' style={{minHeight: '100vh'}}>
-                    <p id='bwhTitle' className='pt-5' style={{fontSize: '2.5em', fontWeight: 'bolder'}}>Book With Her</p>
-                    {/* <div className='row justify-content-md-center pl-2 pr-2 '>
+                <div id='bookWithHer-content' className='col-lg-10 mb-5' style={{minHeight: '50vh'}}>
+                    <p id='bwhTitle' className='pt-5 text-center' style={{fontSize: '2.5em', fontWeight: 'bolder'}}>Book With Her</p>
+                    <div className='row justify-content-md-center '>
                         
-                        <div id='contactForm' className='col-md-10  '>
+                        <div id='contactForm' className='col-md-12 m-auto p-auto '>
                               
-                              {/* {!this.state.showForm ? 
-                              <div id='buttons' className=''>
-                                <button id="new_client" type='button' className='font-weight-bold btn btn-light btn-lg btn-block mt-5 mb-5' onClick={this.handleShowForm}>New Client</button>
-    
-                                <button id="existing_client" type='button' className='font-weight-bold btn btn-light btn-lg btn-block mt-5'>Existing Client</button>
-                              </div>
-                              : null
-                              } */}
-
-                            {/* Contact Form */}
-                            {/* {this.state.showForm ? */}
-                            {/*<div>
+                            <div>
                               <form>
                                   <div className='row justify-content-sm-center p-1'>
   
@@ -102,7 +97,8 @@ class Contact extends Component {
                                           placeholder='First & Last Name'
                                           onChange={this.handleChange}
                                           value={this.state.name}
-                                          required={true}  
+                                          required={true} 
+                                          autoComplete="nope" 
                                       />
   
                                       <input
@@ -113,6 +109,7 @@ class Contact extends Component {
                                           onChange={this.handleChange}
                                           value={this.state.hear}
                                           required={true}
+                                          autoComplete="nope"
                                       />
   
                                   </div>
@@ -128,6 +125,7 @@ class Contact extends Component {
                                           onChange={this.handleChange}
                                           value={this.state.email}
                                           required={true}
+                                          autoComplete="nope"
                                       />
   
                                       <input
@@ -138,6 +136,7 @@ class Contact extends Component {
                                           onChange={this.handleChange}
                                           value={this.state.phone}
                                           required={true}
+                                          autoComplete="nope"
                                       />
                                   </div>
   
@@ -151,6 +150,7 @@ class Contact extends Component {
                                           onChange={this.handleChange}
                                           value={this.state.service}
                                           required={true}
+                                          autoComplete="nope"
                                       />
                                   </div>
   
@@ -168,49 +168,12 @@ class Contact extends Component {
                                       </button>
                                   </div>
                               </div>
+
                             </div>
-                            {/* : null
-                            } 
 
-                        </div>
+                        </div>                        
 
-                    </div> */}
-
-                    <div id='addressHours' className='row justify-content-md-center pl-2 pr-2 pt-2 pb-5'>
-                        <div id='adress' className='col-md-4 text-left p-1'>
-                            <div className='p-1 pt-2 pl-4 pb-3' style={{fontSize: '1.4em'}}>
-                              <p style={{fontWeight: 'bolder'}}>Address</p>
-                              <p style={{fontWeight: 'bold'}}>660 Market St, 2nd Floor<br></br>Suite 214<br></br>San Francisco, CA 94104</p>
-                            </div>
-                             
-                        </div>
-
-                        <div id='' className='col-md-4  text-left pl-3 pb-5'>
-                            <table>
-                            <thead>
-                                <tr>
-                                  <th id='thHours' className='p-2 pt-2 pl-3'>Hours</th>
-                                  <th></th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td className='pl-3'>Tue - Sat</td>
-                                  <td className='pl-3'>11am - 7pm</td>
-                                </tr>
-                                <tr>
-                                  <td className='pl-3 pt-3' style={{fontWeight: 'bolder'}}>Email:</td>
-                                  <td className='pl-3 pt-3'>MandeepStylist@gmail.com</td>
-                                </tr>
-                                <tr>
-                                  <td></td>
-                                  <td className='pl-3 '></td>
-                                </tr>                             
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
+                    </div> 
 
                 </div>
 
@@ -219,4 +182,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default BookWithHer;
