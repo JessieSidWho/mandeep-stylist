@@ -24,7 +24,7 @@ const Title = () => {
                         <Nav.Link className='nav-item active p-1 pl-5 text-white ' href="#bookWithHer-box" style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}>Book With Her</Nav.Link>
                         <Nav.Link className='nav-item active p-1 pl-5 text-white ' target="_blank" href="http://instagram.com/mandeepstylist" style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}><i className="fab fa-instagram"></i></Nav.Link>
                         <Nav.Link className='nav-item active p-1 pl-5 text-white ' target="_blank" href="https://www.yelp.com/biz/mandeep-stylist-san-francisco-3" style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}><i className="fab fa-yelp"></i></Nav.Link>
-                        <Nav.Link className='nav-item active p-1 pl-5 text-white ' target="_blank" href="https://goo.gl/maps/cf89sNBwJBPyhYQG9" style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}><i className="fab fa-google"></i></Nav.Link>
+                        <Nav.Link className='nav-item active p-1 pl-5 text-white ' target="_blank" href="https://goo.gl/maps/cf89sNBwJBPyhYQG9" style={{fontFamily: 'Josefin Sans', fontSize: '24px'}}><i className="fab fa-google"></i></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
