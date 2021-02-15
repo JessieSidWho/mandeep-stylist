@@ -1,5 +1,5 @@
-.no1 {
-    font-size: 40px; 
+/* .no1 {
+     font-size: 40px; 
     color: white;
 }
 
@@ -21,27 +21,42 @@
 .no5 {
     font-size: 40px;
     color: white;
-}
+} */
 
-#logos11:hover{
+/* #logos11{
+     font-size: 40px;
     color: #fff;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-}
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);  
+} */
 
-.no2:hover{
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 42px; /* change this to change the size*/
+    
+    }
+
+.no2{
+    font-size: 42px;
     color: #4267B2;
 }
 
-.no3:hover{
+.no3{
+    font-size: 39px;
     color: #D42424;
 }
 
-.no4:hover{
+/* .no4{
     color: lightskyblue;
-}
+} */
 
-.no5:hover{
+.no5{
+    font-size: 41px;
     color: orangered;
 }
 
@@ -49,3 +64,12 @@
     opacity: 1;
     background-color: black;
 }
+
+#google {
+    font-size: 38px;
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
