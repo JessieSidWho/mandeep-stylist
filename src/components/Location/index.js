@@ -19,7 +19,7 @@ const Location = () => {
                         <div id='' className='col-md-5 text-left pb-0 pl-5'>
                           <div className='p-3' style={{fontSize: '1.4em'}}>
                             <p style={{fontWeight: 'bolder'}}>Address</p>
-                            <p style={{fontWeight: 'bold'}}>660 Market St, 2nd Floor<br></br>Suite 214<br></br>San Francisco, CA 94104</p>
+                            <p style={{fontWeight: 'bold'}}>660 Market St, 2nd Floor<br></br>Suite 204<br></br>San Francisco, CA 94104</p>
                           </div>
 
                           <table>
