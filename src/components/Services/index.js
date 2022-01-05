@@ -32,22 +32,22 @@ const Services = () => {
                                 <tr>
                                   <th>Styling</th>
                                   <td>BlowOut</td>
-                                  <td>$79</td>
+                                  <td>$85</td>
                                 </tr>
                                 <tr>
                                   <th></th>
                                   <td>Treatment + BlowOut</td>
-                                  <td>$94</td>
+                                  <td>$100</td>
                                 </tr>
                                 <tr>
                                   <th></th>
                                   <td>Updo</td>
-                                  <td>EFP</td>
+                                  <td>$125+</td>
                                 </tr>
                                 <tr>
                                   <th></th>
                                   <td>Braid&#40;s&#41;</td>
-                                  <td>$49+</td>
+                                  <td>$65+</td>
                                 </tr>
                                   {/* Cuts */}
                                 <tr>
@@ -79,12 +79,12 @@ const Services = () => {
                                 <tr>
                                   <th>Hair Texture</th>
                                   <td>Keratin EXPRESS<br></br>&#40;Formaldehyde Free&#41;</td>
-                                  <td>$160</td>
+                                  <td>$180</td>
                                 </tr>
                                 <tr>
                                   <th></th>
                                   <td className='pr-5'>Keratin/Brazilian Treatment</td>
-                                  <td>$360</td>
+                                  <td>$380</td>
                                 </tr>
                                   {/* Hair Extension */}
                                 <tr>
@@ -128,27 +128,27 @@ const Services = () => {
                                 <tr>
                                   <th className=' pr-5' style={{color: 'white'}}>Extensions</th>
                                   <td className=''>Tint &#40;Root touchup&#41;</td>
-                                  <td>$89</td>
+                                  <td>$95</td>
                                 </tr>
                                 <tr>
                                   <th></th>
                                   <td>Base Break</td>
-                                  <td>$50</td>
+                                  <td>$65</td>
                                 </tr>
                                 <tr>
                                   <th></th>
                                   <td className='pr-5'>Face Framing Highlights</td>
-                                  <td>$150</td>
+                                  <td>$200+</td>
                                 </tr>
                                 <tr>
                                   <th></th>
                                   <td>Full Highlight</td>
-                                  <td>$250+</td>
+                                  <td>$300+</td>
                                 </tr>
                                 <tr>
                                   <th></th>
                                   <td>Partial Highlight</td>
-                                  <td>$225+</td>
+                                  <td>$250+</td>
                                 </tr>
                                 <tr>
                                   <th></th>
@@ -158,12 +158,12 @@ const Services = () => {
                                 <tr>
                                   <th></th>
                                   <td>Balayage</td>
-                                  <td>$250</td>
+                                  <td>$300</td>
                                 </tr>
                                 <tr>
                                   <th></th>
                                   <td>Foilyage</td>
-                                  <td>EFP</td>
+                                  <td>$385+</td>
                                 </tr>
                                 <tr>
                                   <th></th>
@@ -178,7 +178,7 @@ const Services = () => {
                                 <tr>
                                   <th></th>
                                   <td>Bleach + Tone</td>
-                                  <td>EFP</td>
+                                  <td>$150 /hr + CR</td>
                                 </tr>
                                 <tr>
                                   <th></th>

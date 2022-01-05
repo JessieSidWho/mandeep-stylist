@@ -18,6 +18,7 @@ class BookWithHer extends Component {
         hear: '',
         email: '',
         phone: '',
+        availibility: '',
         service: ''
     };
 
@@ -41,6 +42,7 @@ class BookWithHer extends Component {
             "email": this.state.email,
             "phone": this.state.phone,
             "hear": this.state.hear,
+            "availibility": this.state.availibility,
             "service": this.state.service
          }
          
@@ -52,7 +54,7 @@ class BookWithHer extends Component {
          .then((response) => {
             Swal.fire({
                 title: 'SUCCESS!',
-                text: 'Mandeep Stylist has received your inquiry and will get back to you within 24 hours.',
+                text: 'Mandeep Stylist has received your inquiry!',
                 imageUrl: 'https://drive.google.com/uc?id=1aD_WWpfHGzfmYoSht0YV2-eBb0Bvleps',
                 imageWidth: 350,
                 imageHeight: 300,
@@ -66,7 +68,7 @@ class BookWithHer extends Component {
             // console.log('FAILED...', err);
          });
 
-        this.setState({ name: '', hear: '', email: '', phone: '', service: '' });
+        this.setState({ name: '', hear: '', email: '', phone: '', availibility: '', service: '' });
     }
 
 
@@ -140,6 +142,20 @@ class BookWithHer extends Component {
                                       />
                                   </div>
   
+                                  <div className='row justify-content-sm-center'>
+                                      <textarea
+                                          id='inputText'
+                                          className='col-md-10 text-dark pt-2 pb-5 border-top-0 border-left-0 border-right-0'
+                                          name='availibility'
+                                          type='text'
+                                          placeholder='Your preference for Time of Day + Day of Week? (e.g. Wednesdays in the afternoon or Sundays anytime)'
+                                          onChange={this.handleChange}
+                                          value={this.state.availibility}
+                                          required={true}
+                                          autoComplete="nope"
+                                      />
+                                  </div>
+                                  
                                   <div className='row justify-content-sm-center'>
                                       <textarea
                                           id='inputText'
