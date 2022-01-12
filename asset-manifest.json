@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.523a2705.chunk.css",
-    "main.js": "/static/js/main.a6181868.chunk.js",
-    "main.js.map": "/static/js/main.a6181868.chunk.js.map",
+    "main.js": "/static/js/main.e0d3e007.chunk.js",
+    "main.js.map": "/static/js/main.e0d3e007.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8c9faca.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8c9faca.js.map",
     "static/css/2.0c51811a.chunk.css": "/static/css/2.0c51811a.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/Correction.9e78fda5.jpeg": "/static/media/Correction.9e78fda5.jpeg",
     "static/media/Creative.32712b39.jpeg": "/static/media/Creative.32712b39.jpeg",
     "static/media/Keratin.032cdf52.jpeg": "/static/media/Keratin.032cdf52.jpeg",
-    "static/media/MSHOKER.964b3b2d.jpeg": "/static/media/MSHOKER.964b3b2d.jpeg",
+    "static/media/MSHOKER.495ad94c.jpeg": "/static/media/MSHOKER.495ad94c.jpeg",
     "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
@@ -25,6 +25,6 @@
     "static/css/2.0c51811a.chunk.css",
     "static/js/2.14c29c5e.chunk.js",
     "static/css/main.523a2705.chunk.css",
-    "static/js/main.a6181868.chunk.js"
+    "static/js/main.e0d3e007.chunk.js"
   ]
 }
