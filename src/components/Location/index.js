@@ -19,7 +19,7 @@ const Location = () => {
                         <div id='' className='col-md-5 text-left pb-0 pl-5'>
                           <div className='p-3' style={{fontSize: '1.4em'}}>
                             <p style={{fontWeight: 'bolder'}}>Address</p>
-                            <p style={{fontWeight: 'bold'}}>660 Market St, 2nd Floor<br></br>Suite 204<br></br>San Francisco, CA 94104</p>
+                            <p style={{fontWeight: 'bold'}}>660 Market St, 2nd Floor<br></br>Suite 209<br></br>San Francisco, CA 94104</p>
                           </div>
 
                           <table>
@@ -30,7 +30,7 @@ const Location = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td className='pl-3'>Tuesday - Saturday   <span style={{fontWeight: 'bolder'}}>|</span>   11am - 7pm</td>
+                                  <td className='pl-3'>Wednesday - Sunday   <span style={{fontWeight: 'bolder'}}>|</span>   11am - 7pm</td>
                                 </tr>
                                 <tr>
                                   <td className='pl-3 pt-4' style={{fontWeight: 'bolder'}}>Email:</td>
